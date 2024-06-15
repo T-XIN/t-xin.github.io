@@ -24,8 +24,4 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
   gem 'hawkins'
-  gem "webrick", "~> 1.8"
-  # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-  gem install tzinfo
-  gem install tzinfo-data
 end
